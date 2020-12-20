@@ -1,0 +1,73 @@
+.navbar-nav a {
+	font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+	font-size: 18px;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+.navbar-light .navbar-brand {
+	color: grey;
+	font-size: 25px;
+	text-transform: uppercase;
+	font-weight: normal;
+	letter-spacing: 2px;
+}
+.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
+	color: grey;
+}
+
+.navbar-nav {
+	text-align: right;
+}
+.nav-link {
+	padding: .2rem 1rem;
+}
+.nav-link.active, .nav-link:focus {
+	color: black;
+}
+.navbar-toggler {
+	padding: 1px 5px;
+	font-size: 18px;
+	line-height: 0.3;
+	background: white;
+}
+.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
+	color: grey;
+}
+.w-100 {
+	height: 100vh;
+}
+
+.title{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+	font-size: 50px;
+	text-transform: uppercase;
+    font-weight: bold;
+    color: grey;
+    padding-top: 100px;
+}
+
+.image {
+    padding-top: 2px;
+    width: 300px;
+}
+
+@media only screen and (max-width: 767px) {
+	.navbar-nav a {
+		font-size: 14px;
+		font-weight: normal;
+    }
+    .navbar-nav {
+        text-align: right;
+    }
+    .title {
+        font-size: 25px;
+    }
+    .image {
+        width: 150px;
+    }
+    .navbar-toggler {
+        font-size: 14px;
+    }
+}
+
+
